@@ -1,0 +1,223 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+background-color: #FFECC8;
+}
+.recipe-container{
+  display: flex;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+@media screen and (max-width:375px) {
+  .recipe-container{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width:500px) {
+  .recipe-container{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width:750px) {
+  .recipe-container{
+    margin-left: 140px;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .recipe-container{
+    margin-left: 250px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .recipe-container{
+    margin-left: 550px;
+  }
+}
+.container{
+  font-family: "Varela Round", sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+}
+@media screen and (max-width:500px) {
+  .container{
+    width: 300px;
+    height: auto;
+  }
+}
+.receipe-image{
+  display: flex;
+  justify-content: center;
+}
+.image-omlette{
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 12px;
+  object-fit: contain;
+}
+@media screen and (max-width:500px) {
+  .image-omlette{
+    width: 95%;
+  }
+}
+@media screen and (min-width:1440px) {
+  .image-omlette{
+    width: 95%;
+  }
+}
+.title{
+  font-size: 26px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 14px;
+  padding-left: 12px;
+}
+@media screen and (max-width:500px) {
+  .title{
+    font-size: 18px;
+  }
+}
+.description{
+  font-size: 14px;
+  padding: 10px 12px;
+  line-height: 20px;
+}
+.preparation{
+  margin: 20px 20px;
+  width: 450px;
+  height: 140px;
+  background-color: #fbb5b538;
+  border-radius: 10px;
+}
+
+@media screen and (max-width:500px) {
+  .preparation{
+    margin: 10px 10px;
+    width: 280px;
+    height: 130px;
+  }
+}
+.preparation-1{
+  padding-top: 12px;
+  padding-left: 12px;
+  font-size: 20px;
+  color: #B03052;
+}
+.list{
+  padding-top: 10px;
+}
+.time{
+  padding-top: 1px;
+  margin-top: 4px;
+  padding-left: 30px;
+  font-size: 15px;
+  color: black;
+}
+@media screen and (max-width:500px) {
+  .time{
+    padding: 0;
+    font-size: 15px;
+  }
+}
+.ingredients{
+  padding-left: 12px;
+}
+.ingredients-title{
+  font-size: 18px;
+  font-weight: bold;
+  color: #B03052;
+}
+.list-ing{
+  padding-left: 45px;
+  padding-top: 12px;
+  line-height: 26px;
+  font-size: 15px;
+}
+@media screen and (max-width:500px) {
+  .list-ing{
+    padding-left: 10px;
+    font-size: 15px;
+  }
+}
+.instruction{
+  padding-left: 12px;
+  padding-top: 10px
+}
+.instructions{
+  font-size: 18px;
+  font-weight: bold;
+  color: #B03052;
+}
+.list-instructions{
+  font-size: 15px;
+  width: 425px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+@media screen and (max-width:500px) {
+  .list-instructions{
+    width: 225px;
+    text-align: justify;
+    font-size: 15px;
+  line-height: 18px;
+  }
+}
+.order-list-inst{
+  padding-bottom: 5px;
+}
+.nutrtion-table{
+  padding-left: 12px;
+  padding-top: 10px
+}
+@media screen and (max-width:500px) {
+  .table-content{
+    width: 225px;
+    text-align: justify;
+  }
+}
+.table-name{
+  font-size: 18px;
+  font-weight: bold;
+  color: #B03052;
+}
+.table-content{
+  padding-left: 12px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+table{
+  color: #b1381c;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 40px;
+  width: 375px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:500px) {
+  table{
+    margin-left: 10px;
+    width: 250px;
+  }
+}
+tr{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  border-bottom: 1px solid #b1371c77;
+}
+td{
+  padding-bottom: 6px;
+}
+.attribution{
+  margin-top: 20px;
+  text-align: center;
+}
